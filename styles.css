@@ -1,0 +1,80 @@
+body{
+    background: black;
+    margin: 0;    
+}
+form{
+    background: white;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    text-align: left
+}
+h1 {
+    height: 40px;
+    padding-left: 10px;
+}
+.titulo {
+    border: solid 1px;
+    background: rgb(177, 167, 167);
+    text-align: left;
+}
+
+}
+.contenedor {
+    margin: 10px;
+    float: center ;  
+    
+}
+.centro{
+    margin-top: 0 !important;
+}
+h2 {
+    background: #e7b6b6;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 1px;
+
+}
+
+.padre1, .padre2, .padre3, .padre4 {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+
+}
+
+}
+.visa {
+    display: flex;
+}
+.american {
+    display: flex;
+}
+.diners {
+    display: flex;
+}
+.master {
+    display: flex;
+}
+.logostarjetas {
+    display: flex;
+    font-size: xx-large;
+    background: darkgray;
+}
+.abajo {
+    background: rgb(177, 167, 167);
+    border: solid 1px;
+    height: 100px;
+    text-align: right;
+    padding-right: 30px;
+    align-items: center;
+}
+
+input, select, textarea {
+    font-size: x-large;
+    
+   
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario en clase</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <form>
+            <div class="contenedor">
+                <div class="titulo">
+                    <h1>Ejemplo de formulario</h1>
+                </div>
+
+                <div class="centro">
+                    <div>
+                        <h2>Rellena este formulario</h2>
+                    </div>
+
+                    <div class="padre1">
+                        <div>
+                            <label>CARD #</label><br>
+                            <input type="text" placeholder="XXXXXXXX">
+                        </div>
+                        <div>
+                            <label>CVC #</label><br>
+                            <input type="text" placeholder="00000">
+                        </div>
+                        <div>
+                            <label>AMOUNT</label><br>
+                            <input type="text" placeholder="Amount">
+                        </div>
+                    </div>
+
+                    <div class="padre2">
+                        <div>
+                            <label>FIRST NAME</label><br>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>LAST NAME</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="padre3">
+                        <div>
+                            <label>CITY</label><br>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label>STATE</label><br>
+                            <select name="STATE" id="STATE">
+                                <option value="1">Metroplitana</option>
+                                <option value="2">Coquimbo</option>
+                                <option value="3">Magallanes</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>POSTAL CODE</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="padre4">
+                        <div>
+                            <label>WE ACCEPT</label><br>
+                            <div class="logostarjetas">
+                                <div class="visa">
+                                    <input type="radio">
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                </div>
+                                <div class="american">
+                                    <input type="radio">
+                                    <i class="fa-brands fa-cc-amex"></i>
+                                </div>
+                                <div class="diners">
+                                    <input type="radio">
+                                    <i class="fa-brands fa-cc-diners-club"></i>
+                                </div>
+                                <div class="master">
+                                    <input type="radio">
+                                    <i class="fa-brands fa-cc-mastercard"></i>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <p>MESAGGE</p><br>
+                            <textarea name="comentario"><Escribe aquí tu comentario></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abajo">
+                    <div>
+                        <button>CANCEL</button>
+                        <button>SEND</button>
+                    </div>
+
+            </div>
+            </div>
+        </form>
+        <script src="https://kit.fontawesome.com/5f0b4ef886.js" crossorigin="anonymous"></script>
+    </body>
+</html>
